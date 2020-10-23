@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener{
     override fun onCreate(savedInstanceState: Bundle?)  {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
         counter = savedInstanceState?.getDouble("counter") ?: Math.random()*10
 
         Log.e("MainActivity", counter.toString())

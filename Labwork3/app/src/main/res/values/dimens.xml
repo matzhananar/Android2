@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <dimen name = "width_of_button">200dp</dimen>
+</resources>

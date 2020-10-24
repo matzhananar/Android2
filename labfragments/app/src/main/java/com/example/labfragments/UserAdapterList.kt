@@ -36,7 +36,7 @@ class UserListAdapter(val user: ArrayList<User>, val context: Context):
 
         init{
             view.setOnClickListener{
-                Toast.makeText(context, userText.text, Toast.LENGTH_SHORT).show()
+                Toast.makeText(context, "sorry i dont know fragments", Toast.LENGTH_LONG).show()
             }
 
         }
